@@ -1,4 +1,4 @@
-def comb(self, n, k):
+def comb(n, k):
     """手写组合数计算函数"""
     if k < 0 or k > n:
         return 0
